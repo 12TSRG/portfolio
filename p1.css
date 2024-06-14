@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+body {
+    background-color: rgb(5, 3, 3);
+    margin: 0px;
+}
+
+
+
+.navbar {
+    position: sticky;
+    top : 0px;
+    display: flex;
+    /* flex box */
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(13, 21, 21);
+
+   
+   
+   
+   
+    
+}
+
+.navbar-left {
+    padding-left: 0px;
+   
+
+}
+
+.navbar-right {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+  
+ 
+
+}
+
+
+.a-element {
+    color: aliceblue;
+    padding: 5px;
+    padding-right: 15px;
+    margin: 19px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:monospace;
+    text-decoration: none;  /* if you remove this a line will occur */
+   
+}
+.a-element:hover{
+    transition: all 2s ease-in-out;
+    transform: scale(1.1);
+   
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50vh;
+    /* height of the page */
+   
+   
+   
+
+
+}
+
+
+.photo img {
+
+    object-fit: auto;
+    border-radius: 70%;
+    padding-top: 60px;
+    padding-right: 40px;
+    padding-bottom: 0px;
+    padding-left: 120px;
+  
+
+   
+
+}
+.photo:hover{
+    
+    transition: all 1s ease-in-out;
+    transform: scale(0.9);
+   
+
+} 
+.home-left{
+    color: rgb(222, 193, 150);
+    text-align: left;
+    padding-left: 100px;
+    margin-top: 50px;
+  
+}
+
+.name {
+    color: aliceblue;
+    font-size: 35px;
+    font-size: 70px;
+    padding-bottom: 0px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.intro{
+    text-align: left;
+    width: 80vh;
+    font-size: 20px;
+    padding-top: 0px;
+    font-family:cursive;
+    padding-left: 60px;
+   
+
+
+}
+
+.resume{
+    text-align: center;
+    
+}
+
+.res-head{
+    font-size: 60px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    letter-spacing: 2px;
+    color: aliceblue;
+    margin-top: 150px;
+    background-color: rgb(13, 21, 21);
+
+}
+.res{
+    color:  rgb(222, 193, 150);
+    border: white solid 5px;
+    padding: 5px;
+    background-color: rgb(13, 21, 21);
+    font-family:cursive;
+    text-decoration: none;
+
+}
+
+.cont{
+    font-size: 40px;
+    color: rgb(255, 254, 253);
+    text-align: center;
+    padding-left: 30px;
+    padding-top:0px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(13, 21, 21);
+    
+     
+}
+.contact-info{
+    color: rgb(255, 254, 253);
+    text-align: center;
+    padding-left: 30px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 16px;
+    font-family: cursive;
+  
+}
+.icons img{
+    padding: 10px;
+    padding-top: 0px;
+}
+
+.About{
+   color: aliceblue;
+   padding: 30px 0px;
+   
+}
+
+.heading1{
+    font-size: 60px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    letter-spacing: 2px;
+    padding-top: 0px;
+    color: aliceblue;
+    background-color: rgb(13, 21, 21);
+    
+}
+
+.heading2{
+    text-align: center;
+    font-size:40px;
+}
+.edu-sub1{
+
+    text-align: center;
+    
+    color:  rgb(222, 193, 150);
+    border: white solid 5px;
+    width: 700px;
+    margin-left: 400px;
+    background-color: rgb(13, 21, 21);
+    font-family:cursive;
+
+    
+
+}
+.edu-sub2{
+    text-align: center;
+    color:  rgb(222, 193, 150);
+    border: white solid 5px;
+    margin-top: 5px;
+    width: 700px;
+    margin-left: 400px;   
+    font-family:cursive; 
+
+}
+
+.inst-name{
+    font-size: 35px;
+}
+
+.details{
+    font-size: 30px;
+    padding-top: 0px;
+}
+
+.skills{
+    text-align: center;
+    font-size:40px;
+   
+
+}
+.subskills{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.skill-1{
+    padding-left:70px;
+    width: 300px;
+    border: white solid 5px;
+    margin-left: 250px;
+    font-family:cursive;
+    color:  rgb(222, 193, 150);
+    background-color: rgb(13, 21, 21);
+}
+
+.skill-2{
+    padding-left:70px;
+    width: 300px;
+    border: white solid 5px;
+    margin-right: 250px;
+    font-family:cursive;
+    color:  rgb(222, 193, 150);
+}
+
+
+
